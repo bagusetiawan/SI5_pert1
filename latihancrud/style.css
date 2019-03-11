@@ -1,0 +1,17 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+div{
+	width: 75%;
+	margin: 0px auto;
+	min-height: 400px;
+}
+
+.table{
+	background: pink;
+	margin: 5px auto;
+	border-collapse: collapse;
+	width: 75%;
+}

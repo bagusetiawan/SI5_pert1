@@ -2,10 +2,13 @@
 <html>
 <head>
 	<title>Home</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<h3>DATA PRAKTIKAN LAB SI 5</h3>
-	<table style="background:green" border="1">
+	<h2 align="center">DATA PRAKTIKAN LAB SI 5</h2>
+	<hr color="red" width="100%" size="4">
+	<div>
+	<table class="table" border="1">
 		<thead>
 			<th>No</th>
 			<th>NIM</th>
@@ -46,6 +49,7 @@
 		</tbody>
 	</table>
 	</br>
+	</div>
  	<h3><a href="index.php">Halaman Admin</a></h3>
 </body>
 </html>

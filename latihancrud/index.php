@@ -2,11 +2,15 @@
 <html>
 <head>
 	<title>Halaman Admin</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<h3>Halaman Admin</h3>
+	<h2 align="center">Halaman Admin</h2>
+	<hr color="red" width="100%" size="4">
+	</br>
 	<a href="tambah-data.php">+TAMBAH</a>
-	<table style="background:green" border="1">
+	<div>
+	<table class="table" border="1">
 		<thead>
 			<th>No</th>
 			<th>NIM</th>
@@ -52,6 +56,7 @@
 		</tbody>
 	</table>
  	</br>
+ 	</div>
  	<h3><a href="home.php">Home</a></h3>
 </body>
 </html>
